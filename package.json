@@ -1,4 +1,5 @@
 {
+  "homepage": "http://Adit0396.github.io/StockMarketApp",
   "name": "my-app",
   "version": "0.1.0",
   "private": true,
@@ -15,7 +16,6 @@
     "react-bootstrap": "^1.5.2",
     "react-chartjs-2": "^3.0.3",
     "react-dom": "^17.0.2",
-    "homepage":"https://github.com/Adit0396/StockMarketApp.git",
     "react-router-dom": "^5.2.0",
     "react-scripts": "^4.0.3",
     "react-select": "^4.3.0",
@@ -27,6 +27,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
